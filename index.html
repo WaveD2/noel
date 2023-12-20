@@ -221,13 +221,32 @@
           </ul>
         </div>
 
+        <div id="container-list-text">
+          <span id="text1"></span>
+          <span id="text2"></span>
+        </div>
+
+        <svg id="filters">
+          <defs>
+            <filter id="threshold">
+              <feColorMatrix
+                in="SourceGraphic"
+                type="matrix"
+                values="1 0 0 0 0
+                  0 1 0 0 0
+                  0 0 1 0 0
+                  0 0 0 255 -140" />
+            </filter>
+          </defs>
+        </svg>
+
         <div class="tags">
           <div class="tag-container">
             <div class="tag">
               <div class="tag-side tag-1-side">
                 <div class="tag-1-top"></div>
                 <div class="tag-text tag-1-text">
-                  Qùa 1
+                  Phạm
                   <div class="rule-shape rule-red">&starf;</div>
                 </div>
               </div>
@@ -246,7 +265,7 @@
             <div class="tag">
               <div class="tag-side tag-2-side">
                 <div class="tag-text tag-2-text">
-                  Qùa 2
+                  Thanh
                   <div class="rule-diagonal"></div>
                 </div>
               </div>
@@ -264,7 +283,7 @@
             <div class="tag">
               <div class="tag-side tag-3-side">
                 <div class="tag-text tag-3-text">
-                  Qùa 3
+                  Loan
                   <div class="rule-shape">&#10052;</div>
                 </div>
               </div>

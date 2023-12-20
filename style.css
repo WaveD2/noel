@@ -342,7 +342,6 @@ body {
 
 .tags {
   position: relative;
-  height: 100vh;
   align-items: center;
   flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -965,4 +964,29 @@ body {
 }
 .d-flex {
   display: flex !important;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+#container-list-text {
+  position: absolute;
+  margin: auto;
+  width: 100vw;
+  top: 45px;
+  bottom: 0;
+
+  filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  color: #a69898;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50pt;
+  font-weight: 700;
+  text-align: center;
+
+  user-select: none;
 }
